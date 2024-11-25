@@ -1,4 +1,11 @@
-import { Alert, FlatList, StyleSheet, Text, View } from "react-native";
+import {
+  Alert,
+  FlatList,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import { useEffect, useState } from "react";
 import Title from "../components/ui/Title";
@@ -112,6 +119,8 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 24,
+    alignItems: "center",
+    marginTop: 36,
   },
   buttonsContainer: {
     flexDirection: "row",
